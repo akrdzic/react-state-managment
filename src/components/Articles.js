@@ -7,13 +7,13 @@ import ArticlesList from "./ArticlesList";
 import ArticlesSearchInput from "./ArticlesSearchInput";
 
 const Articles = () => {
-  const { articles, fetch } = useArticles();
+  const { all, fetch } = useArticles();
 
   return (
     <div className="articles">
       <ArticlesSearchInput onSearch={fetch} />
       {
-        articles && <ArticlesList articles={articles.all} />
+        all && <ArticlesList articles={all} />
       }
     </div>
   );

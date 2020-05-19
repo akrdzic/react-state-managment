@@ -1,9 +1,5 @@
 .articles {
-    position: fixed;
-    top: 100px;
     border: 1px solid #ccc;
     padding: 40px;
-    left: 50%;
-    transform: translateX(-50%);
     width: 600px;
 }

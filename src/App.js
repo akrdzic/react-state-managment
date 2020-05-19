@@ -3,6 +3,7 @@ import './App.css';
 
 import Provider from './store';
 import Articles from './components/Articles';
+import EmployeesList from "./components/EmployeesList";
 
 class App extends Component {
   render() {
@@ -10,6 +11,7 @@ class App extends Component {
       <Provider>
         <div className="App">
           <Articles />
+          <EmployeesList />
         </div>
       </Provider>
     );
